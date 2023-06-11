@@ -1,0 +1,102 @@
+:root {
+    /* --color-primary: #3959ff; */
+    --color-primary: #0183fd;
+    --color-h: #333333;
+    --color-p: #a8a8a8;
+    --link-color: hsl(0, 0%, 47%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    padding: 5em 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 70vw;
+    margin-inline: auto;
+}
+
+.bg-dark {
+    background-color: whitesmoke;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: center;
+    color: var(--color-h);
+}
+
+h1 {
+    font-size: 2.375rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 0.875rem;
+    color: var(--color-p);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+button {
+    background-color: #0183fd;
+    color: whitesmoke;
+    border: none;
+    padding: 0.8rem 4rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+
+span {
+    color: #0183fd;
+    font-style: italic;
+}
+
+button:hover {
+    background-color: #1878d2;
+}
+
+button.secondary {
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "hosting": {
+        "public": "build",
+        "ignore": [
+            "**/node_modules/**",
+            "**/public/**",
+            "**/src/**",
+            "**/.*",
+            "firebase.json",
+            "package-lock.json",
+            "package.json",
+            "README.md",
+            "wepack.config.js"
+        ],
+        "rewrites": [
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    }
+}
+
